@@ -29,8 +29,9 @@ const Footer = () => {
                 <div className='footer__component'>
                     <div className='footer-block'>
                         <div className='footer-logo logo-none-second' onClick={() => navigate("/")}>
-                            <img src={process.env.REACT_APP_API_URL + 'logo-white3.png'} alt="logo" />
-                            <span className='protected-none'>ⓒ 2022 TripNet. {t('footer.protected')}.</span>
+                            {/* <img src={process.env.REACT_APP_API_URL + 'logo-white3.png'} alt="logo" /> */}
+                            <p className='logo-readme-footer'>TRAVEL</p>
+                            <span className='protected-none'>ⓒ 2022 TraVel. {t('footer.protected')}.</span>
                             <div className='footer-icon-social'>
                                 <div>
                                     <a target="_blank" href={infoCompany.telegram}><FaTelegramPlane /></a>
@@ -71,7 +72,8 @@ const Footer = () => {
                             </div>
                             <div>
                                 <img src={process.env.REACT_APP_API_URL + 'mail.png'} alt="mail" />
-                                {infoCompany.email}
+                                {/* {infoCompany.email} */}
+                                travel@gmail.com
                             </div>
                             <div>
                                 <img src={process.env.REACT_APP_API_URL + 'clock.png'} alt="clock" />

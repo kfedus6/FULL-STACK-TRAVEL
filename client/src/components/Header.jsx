@@ -15,8 +15,10 @@ const Header = () => {
     const [isShow, setIsShow] = useState(false)
     const navigate = useNavigate();
     const [isRegister, setIsRegister] = useState(true);
-    const [isBurgerShow,setIsBurgerShow]=useState(false);
-    
+    const [isBurgerShow, setIsBurgerShow] = useState(false);
+
+    //<Logo />
+
     return (
         <>
             <div className='header__main'>
@@ -63,9 +65,9 @@ const Header = () => {
                                     <img src={process.env.REACT_APP_API_URL + 'user.png'} alt="user" />
                                 </div> :
                                 <div className='header_register'>
-                                    <div onClick={() =>{setIsRegister(false);setIsShow(true)}}><span>{t('header.seven_link')}</span></div>
+                                    <div onClick={() => { setIsRegister(false); setIsShow(true) }}><span>{t('header.seven_link')}</span></div>
                                     <span>|</span>
-                                    <div onClick={() =>{setIsRegister(true);setIsShow(true)}}><span>{t("header.registering")}</span></div>
+                                    <div onClick={() => { setIsRegister(true); setIsShow(true) }}><span>{t("header.registering")}</span></div>
                                 </div>
                             }
                         </div>
@@ -76,15 +78,15 @@ const Header = () => {
                         <div>
                             <Logo />
                         </div>
-                        {!isBurgerShow?
+                        {!isBurgerShow ?
                             <div className='menu-burger' onClick={() => setIsBurgerShow(true)}>
                                 <img src={process.env.REACT_APP_API_URL + 'menu.png'} alt="burger" />
                             </div>
-                            :<></>}
+                            : <></>}
                     </div>
                 </div>
             </div>
-            {isBurgerShow? <Burger onClick={()=>setIsBurgerShow(false)} setIsRegister={setIsRegister} setIsShowRegister={setIsShow} setIsBurgerShow={setIsBurgerShow}/>:<></>}
+            {isBurgerShow ? <Burger onClick={() => setIsBurgerShow(false)} setIsRegister={setIsRegister} setIsShowRegister={setIsShow} setIsBurgerShow={setIsBurgerShow} /> : <></>}
             <Authorize isRegister={isRegister} setIsRegister={setIsRegister} isShow={isShow} setIsShow={setIsShow} />
         </>
     )

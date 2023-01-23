@@ -55,7 +55,8 @@ const Contacts = () => {
                                 <div>{t('contacts.description_2')}</div>
                                 <div className="contact__email">
                                     <div className='phone__or_email'>
-                                        {infoCompany.email}
+                                        {/* {infoCompany.email} */}
+                                        travel@gmail.com
                                     </div>
                                 </div>
                             </div>
