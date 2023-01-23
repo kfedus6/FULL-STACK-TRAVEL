@@ -1,0 +1,728 @@
+.container-account-edit {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.block-account-edit {
+    width: 70%;
+}
+
+.container-account {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.block-account {
+    width: 70%;
+}
+
+.account-main-title {
+    margin-bottom: 25px;
+}
+
+.account-main-title b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    color: #111111;
+    cursor: default;
+}
+
+.block-account-user {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.account-user-profile {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 20px;
+}
+
+.account-user-profile b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 120%;
+    color: #111111;
+    cursor: default;
+}
+
+.account-surname-with-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+
+.account-surname-with-name span:nth-child(1) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    cursor: default;
+}
+
+.account-surname-with-name span:nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6A6A6A;
+    cursor: default;
+}
+
+.account-setting-profile-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.account-setting-profile-button button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #2F82FF;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.account-setting-profile-button button:hover {
+    background-color: #5297ff;
+    transition: all ease 0.4s;
+}
+
+.account-message {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    gap: 8px;
+    height: auto;
+    background: #EAF2FF;
+    border: 1px solid #C1DAFF;
+    border-radius: 20px;
+    cursor: default;
+}
+
+.flight-message-icon {
+    margin-top: 4px;
+}
+
+.account-message-title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+.account-message-title-description b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 120%;
+    color: #13356A;
+}
+
+.account-message-title-description span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #13356A;
+}
+
+.block-fligth-cart-profile-account {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.block-flight-cart-account {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 87%;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 20px;
+}
+
+.block-fligth-cart-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px;
+}
+
+.flight-cart-account-status-processing {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #FFF6ED;
+    border-bottom: 1px solid #DBDBDB;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.flight-cart-account-status-processing img {
+    width: 16px;
+    height: 16px;
+}
+
+.flight-cart-account-status-processing span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #79491D;
+    opacity: 0.8;
+    cursor: default;
+}
+
+.flight-cart-account-status-success {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #EAF2FF;
+    border-bottom: 1px solid #DBDBDB;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.flight-cart-account-status-success img {
+    width: 16px;
+    height: 16px;
+}
+
+.flight-cart-account-status-success span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #13356A;
+    opacity: 0.8;
+    cursor: default;
+}
+
+.flight-cart-account-status-cancelled {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #FFEAEA;
+    border-bottom: 1px solid #DBDBDB;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.flight-cart-account-status-cancelled img {
+    width: 16px;
+    height: 16px;
+}
+
+.flight-cart-account-status-cancelled span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6A1313;
+    opacity: 0.8;
+    cursor: default;
+}
+
+.flight-cart-account-status-is-success {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #F0F0F0;
+    border-bottom: 1px solid #DBDBDB;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.flight-cart-account-status-is-success img {
+    width: 16px;
+    height: 16px;
+}
+
+.flight-cart-account-status-is-success span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C4C4C;
+    opacity: 0.8;
+    cursor: default;
+}
+
+
+.flight-cart-account-status-payment {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    background: #E1F6EA;
+    border-bottom: 1px solid #DBDBDB;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.flight-cart-account-status-payment img {
+    width: 16px;
+    height: 16px;
+}
+
+.flight-cart-account-status-payment span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0C4623;
+    opacity: 0.8;
+    cursor: default;
+}
+
+.item-start-finish-position-account {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    gap: 40px;
+    padding: 0 30px;
+}
+
+.item-position-account {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+    word-break: break-word;
+}
+
+.item-street-start-finish-account {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+}
+
+.item-street-start-finish-account div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.item-street-start-finish-account div img {
+    width: 28px;
+    height: 20px;
+}
+
+.item-street-start-finish-account div span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 120%;
+    color: #111111;
+    cursor: default;
+}
+
+.item-street-start-finish-account {
+    word-wrap: break-word;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.item-time-date-account {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+.item-time-date-account span:nth-child(1) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    cursor: default;
+}
+
+.item-time-date-account span:nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.item-detailed-payment-group {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-payment {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 30px;
+    border-top: 1px solid #DBDBDB;
+    gap: 12px;
+}
+
+.item-payment div span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    cursor: default;
+} 
+
+.item-payment-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.item-payment-price div:nth-child(1) span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.item-payment-price div:nth-child(2) {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.item-payment-price div:nth-child(2) img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-payment-price div:nth-child(2) span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6A6A6A;
+    cursor: default;
+}
+
+.item-detailed-info-main {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.item-detailed-info-button {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-detailed-info-main div:nth-child(1) button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2F82FF;
+    outline: none;
+}
+
+.item-detailed-info-main div:nth-child(2) a {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2F82FF;
+    text-decoration: none;
+}
+
+.item-detailed-info-main div:nth-child(2) a:hover {
+    color: #599BFF;
+    transition: all ease 0.4s;
+}
+
+.item-detailed-info-main div:nth-child(1) button:hover {
+    color: #599BFF;
+    transition: all ease 0.4s;
+}
+
+.account-user-profile-none {
+    display: none;
+}
+
+.item-payment-none {
+    display: none;
+}
+
+.item-detailed-info-user {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-contact-details {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 5px;
+    gap: 12px;
+}
+
+.item-contact-details-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    cursor: default;
+}
+
+.item-contact-details-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+}
+
+.item-contact-details-info img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-info span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.item-contact-details-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.item-contact-details-delete img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-delete button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FF2F2F;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-contact-details-delete button:hover {
+    color: #FF8282;
+    transition: all ease 0.4s;
+}
+
+.item-detailed-info-none {
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .block-fligth-cart-profile-account {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .account-user-profile-none {
+        display: flex;
+        width: 50%;
+        margin-top: 25px;
+    }
+    
+    .account-user-profile-none-second {
+        display: none; 
+    }
+
+    .block-account {
+        width: 90%;
+    }
+
+    .block-flight-cart-account {
+        width: 100%;
+    }
+
+    .block-account-user {
+        width: 100%;
+    }
+
+    .account-message {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .account-user-profile-none {
+        display: flex;
+        width: 60%;
+        margin-top: 25px;
+    }
+
+    .item-start-finish-position-account {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .account-user-profile-none {
+        display: flex;
+        width: 100%;
+        margin-top: 25px;
+    }
+}

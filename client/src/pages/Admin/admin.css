@@ -1,0 +1,563 @@
+/* admin infoCompany */
+.admin-panel-info-company {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.admin-panel-block {
+    width: 60%;
+}
+
+.admin-panel-block div input {
+    width: 40%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.admin-panel-block div button {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.admin-panel-block div button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+@media (max-width:1024px) {
+    .admin-panel-block {
+        width: 80%;
+    }
+
+    .admin-panel-block div input {
+        width: 60%;
+    }
+}
+
+@media (max-width:768px) {
+    .admin-panel-block {
+        width: 90%;
+    }
+
+    .admin-panel-block div input {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .admin-panel-block {
+        width: 90%;
+    }
+}
+
+/* admin blog */
+
+.admin-panel-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-blok-blog {
+    width: 60%;
+}
+
+.admin-blog-input input {
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.admin-blok-blog button {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.admin-blok-blog button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+@media (max-width:1024px) {
+    .admin-blok-blog {
+        width: 80%;
+    }
+    .admin-blog-input input {
+        width: 60%;
+    }
+}
+
+@media (max-width:576px) {
+    .admin-blok-blog  {
+        width: 95%;
+    }
+    .admin-blog-input input {
+        width: 98%;
+    }
+}
+
+/* admin FAQ */
+
+
+.admin-panel-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-block-faq {
+    width: 60%;
+}
+
+.admin-faq-input input {
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.admin-block-faq button {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.admin-block-faq button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+@media (max-width:1024px) {
+    .admin-block-faq {
+        width: 80%;
+    }
+    
+    .admin-faq-input input {
+        width: 60%;
+    }
+}
+
+@media (max-width:576px) {
+    .admin-block-faq  {
+        width: 95%;
+    }
+    
+    .admin-faq-input input {
+        width: 98%;
+    }
+}
+
+/* admin flight */
+
+.admin-panel-flight {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.admin-block-flight {
+    width: 70%;
+}
+
+.admin-block-flight div input {
+    width: 40%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.admin-block-flight div button {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.admin-block-flight button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+
+@media (max-width:1024px) {
+    .admin-block-flight {
+        width: 80%;
+    }
+    
+    .admin-block-flight div input {
+        width: 60%;
+    }
+}
+
+@media (max-width:576px) {
+    .admin-block-flight  {
+        width: 95%;
+    }
+    
+    .admin-block-flight div input {
+        width: 98%;
+    }
+}
+
+/* admin novetly */
+
+
+.admin-panel-novetly {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.admin-block-novetly {
+    width: 60%;
+}
+
+.admin-block-novetly input {
+    width: 40%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.admin-block-novetly button {
+    width: 41%;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+.admin-block-novetly button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+
+@media (max-width:1024px) {
+    .admin-block-novetly {
+        width: 80%;
+    }
+    
+    .admin-block-novetly input {
+        width: 60%;
+    }
+
+    .admin-block-novetly button {
+        width: 61%;
+    }
+}
+
+@media (max-width:768px) {
+    .admin-block-novetly  {
+        width: 95%;
+    }
+    
+    .admin-block-novetly input {
+        width: 98%;
+    }
+
+    .admin-block-novetly button {
+        width: 99%;
+    }
+}
+
+/* admin pesponse */
+
+
+.admin-panel-response {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.admin-block-response {
+    width: 60%;
+}
+
+.admin-block-response input {
+    width: 40%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.admin-block-response button {
+    width: 41%;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+.admin-block-response button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.admin-panel-response textarea {
+    width: 40%;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+
+@media (max-width:1024px) {
+    .admin-block-response {
+        width: 80%;
+    }
+    
+    .admin-block-response input {
+        width: 60%;
+    }
+
+    .admin-block-response button {
+        width: 61%;
+    }
+
+    .admin-panel-response textarea  {
+        width: 60%;
+    }
+}
+
+@media (max-width:768px) {
+    .admin-block-response  {
+        width: 95%;
+    }
+    
+    .admin-block-response input {
+        width: 98%;
+    }
+    
+    .admin-panel-response textarea  {
+        width: 98%;
+    }
+
+    .admin-block-response button {
+        width: 99%;
+    }
+}
+
+.flight-update-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    padding: 0 0 30px;
+}
+
+.flight-blocks-update-admin {
+    width: 70%;
+}
+
+.flight-block-update-start-finish-admin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flight-update-start-finish-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+}
+
+.flight-update-input-start-finish-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flight-update-input-start-finish-admin p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.flight-update-input-start-finish-admin span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.flight-update-input-start-finish-admin input {
+    width: 70%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+.flight-update-date-admin p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.flight-update-date-time-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flight-update-date-time-admin p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.flight-update-date-time-admin input {
+    width: 70%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+.flight-update-maps-palce-price-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flight-update-maps-palce-price-admin p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4C;
+    cursor: default;
+}
+
+.flight-update-maps-palce-price-admin input {
+    width: 35%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+.flight-update-change-delete-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.flight-update-change-delete-admin button {
+    width: 30%;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.flight-update-change-delete-admin button:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+@media (max-width:1024px) {
+    .flight-blocks-update-admin {
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    .flight-block-update-start-finish-admin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .flight-update-maps-palce-price-admin input {
+        width: 70%;
+    }
+
+    .flight-update-change-delete-admin {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .flight-update-change-delete-admin button {
+        width: 70%;
+    }
+}
+
+@media (max-width:480px) {
+    .flight-block-update-start-finish-admin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .flight-update-maps-palce-price-admin input, 
+    .flight-update-date-time-admin input,
+    .flight-update-input-start-finish-admin input {
+        width: 95%;
+    }
+     
+    .flight-update-change-delete-admin button {
+        width: 99%;
+    }
+}

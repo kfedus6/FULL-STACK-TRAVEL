@@ -1,0 +1,56 @@
+.container-error {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-error {
+    width: 60%;
+}
+
+.item-error-img img {
+    width: 80%;
+}
+
+.item-error-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-error-message h1 {
+    font-size: 30px;
+    width: 70%;
+    color: #444;
+}
+
+.item-error-message h2 {
+    font-size: 19px;
+    color: #444;
+}
+.item-error-message div p:nth-child(1) {
+    color: #444;
+    font-weight: 700;
+}
+
+.item-error-navigate {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.item-error-navigate:hover {
+    color:#db4900;
+}
+
+
+@media (max-width: 1024px) {
+    .block-error {
+        width: 80%;
+    }
+}
+
+@media (max-width: 769px) {
+    .block-error {
+        width: 98%;
+    }
+}

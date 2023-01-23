@@ -1,0 +1,356 @@
+.order-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.accordion-header-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-orders {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.accordion-title-order {
+    margin-bottom: 20px;
+}
+
+.accordion-title-order b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 39px;
+    line-height: 120%;
+    color: #111111;
+    cursor: default;
+}
+
+.item-payment-order {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 30px;
+    border-top: 1px solid #DBDBDB;
+    gap: 12px;
+}
+
+.item-contact-details-info-order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+}
+
+.item-contact-details-info-order img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-info-order span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6A6A6A;
+    cursor: default;
+}
+
+.item-paymet-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:12px;
+}
+
+.item-paymet-date-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    cursor: default;
+}
+
+.item-paymet-date-time-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.item-contact-details-info-order i {
+    color: rgb(99, 99, 99);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.pagination-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    margin-top: 50px;
+}
+
+.item-detailed-info-main-order {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.item-detailed-info-button-order-show-info button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2F82FF;
+    outline: none;
+}
+
+.item-detailed-info-button-order-go-flight a {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2F82FF;
+    text-decoration: none;
+}
+
+.item-detailed-info-button-order-go-flight a:hover {
+    color: #599BFF;
+    transition: all ease 0.4s;
+}
+
+.item-detailed-info-button-order-show-info button:hover {
+    color: #599BFF;
+    transition: all ease 0.4s;
+}
+
+.item-detailed-info-button-order {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-contact-details-order-admin {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 15px 5px;
+    gap: 12px;
+}
+
+.item-contact-details-order-admin-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.item-contact-details-order-admin-delete img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-order-admin-delete button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FF2F2F;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-contact-details-order-admin-delete button:hover {
+    color: #FF8282;
+    transition: all ease 0.4s;
+}
+
+.item-contact-details-order-admin-cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.item-contact-details-order-admin-cancel img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-order-admin-cancel button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #6A1313;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-contact-details-order-admin-cancel button:hover {
+    color: #ac5959;
+    transition: all ease 0.4s;
+}
+
+.item-contact-details-order-admin-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.item-contact-details-order-admin-check img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-order-admin-check button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #13356A;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-contact-details-order-admin-check button:hover {
+    color: #6383bb;
+    transition: all ease 0.4s;
+}
+
+.item-contact-details-order-admin-paid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.item-contact-details-order-admin-paid img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-order-admin-paid button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #0C4623;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-contact-details-order-admin-paid button:hover {
+    color: #52a573;
+    transition: all ease 0.4s;
+}
+
+.item-contact-details-order-admin-success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.item-contact-details-order-admin-success img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-contact-details-order-admin-success button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #4C4C4C;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-contact-details-order-admin-success button:hover {
+    color: #9b9b9b;
+    transition: all ease 0.4s;
+}
+
+@media (min-width:1024px) {
+    .container-orders {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+@media (max-width:1024px) {
+    .container-orders{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    .container-orders {
+        margin: auto;
+        width: 90%;
+    }
+
+    .item-contact-details-order-admin {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px) {
+    .container-orders {
+        margin: auto;
+        width: 90%;
+    }
+}

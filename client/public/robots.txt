@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /admin
+Disallow: /order
+Disallow: /account
+
+Sitemap: http://localhost:3000/sitemap.xml
