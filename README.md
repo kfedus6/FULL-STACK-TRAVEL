@@ -2,7 +2,7 @@
 
 <div align="center">
    
-  <img src="/README/bus.png" alt="Logo" width="300px"/>
+  <img src="/README/bus.png" alt="Logo" width="250px"/>
    
   <h1 align="center">This is my real React project for a client.</h1>
   <p style="font-size: 25px;"><strong>TRAVEL</strong></p>
