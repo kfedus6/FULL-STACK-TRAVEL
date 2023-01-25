@@ -12,8 +12,8 @@
 
 <h2 align="start">Website information</h2>
 
-> **_About Project_** : When I created this website, it was my first experience with React, Redux, TypeScript, Node.js, OSPanel phpMyAdmin MySQL and more.I have used the latest version of React to get acquainted with React Hooks, Lifecycle, Component etc.
-> **_What I used to create this project_** : What I used to create this project : React, TypeScript, JavaScript, CSS, Bootstrap, Node.js, Redux, Middleware, React Router DOM, i18next, axios, bcryptjs, CORS for React
+> **_About Project_** : This project was created for a client, unfortunately the client refused the site for personal reasons, the project turned out to be quite cool. The designers developed this design using Figma, so the experience with Figma is there.
+> **_What I used to create this project_** : React, JavaScript, Node.js, OSPanel phpMyAdmin MySQL, Redux, Middleware, React Router DOM, i18next, CSS, axios, Material UI, Telegram API, @google-pay/button-react and @react-oauth/google, TinyMCE, bcryptjs, CORS for React.
 <span>You can ask me <strong>"What Can I do here",</strong> let me show you every page and you will understand, what you can do:</span>
 
 <p style="font-size: 25px;"><strong>- Home</strong><span style="font-size: 20px;"> is the first page you see</span></p>
