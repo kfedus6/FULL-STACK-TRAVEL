@@ -13,6 +13,7 @@
 <h2 align="start">Website information</h2>
 
 > **_About Project_** : This project was created for a client, unfortunately the client refused the site for personal reasons, the project turned out to be quite cool. The designers developed this design using Figma, so the experience with Figma is there.
+> 
 > **_What I used to create this project_** : React, JavaScript, Node.js, OSPanel phpMyAdmin MySQL, Redux, Middleware, React Router DOM, i18next, CSS, axios, Material UI, Telegram API, @google-pay/button-react and @react-oauth/google, TinyMCE, bcryptjs, CORS for React.
 <span>You can ask me <strong>"What Can I do here",</strong> let me show you every page and you will understand, what you can do:</span>
 
