@@ -2,10 +2,10 @@
 
 <div align="center">
    
-  <img src="/README/buss.png" alt="Logo" width="200px"/>
+  <img src="/README/bus.png" alt="Logo" width="200px"/>
    
-  <h1 align="center">This is my first React project.</h1>
-  <p style="font-size: 25px;"><strong>SHOP</strong></p>
+  <h1 align="center">This is my real React project for a client.</h1>
+  <p style="font-size: 25px;"><strong>TRAVEL</strong></p>
 </div>
 
 ---
