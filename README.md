@@ -29,7 +29,7 @@
 <p style="font-size: 25px;"><strong>- Sign Up/Log Up and Password recovery</strong></p>
 
 <ul>
-  <li><h6><em>Sign Up</em></h6></li>
+  <li><h6><em>Sign Up: You can register with Google and without Google.</em></h6></li>
 
   <p align="center">
      <img src="/README/registration.png" alt="Registration" width="800px" height="400px"/>
@@ -37,13 +37,20 @@
 </ul>
 
 <ul>
-  <li><h6><em>Log Up</em></h6></li>
+  <li><h6><em>Log Up: You can login up in to your account with or without Google.</em></h6></li>
 
   <p align="center">
      <img src="/README/login.png" alt="Login" width="800px" height="400px"/>
   </p>
 </ul>
 
+<ul>
+  <li><h6><em>Password recovery: You can reset your password using Gmail.</em></h6></li>
+
+  <p align="center">
+     <img src="/README/password.png" alt="Password recovery" width="800px" height="400px"/>
+  </p>
+</ul>
 ---
 
 <p style="font-size: 25px;"><strong>- After Authorization </strong></p>
