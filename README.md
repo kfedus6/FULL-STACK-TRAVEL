@@ -54,6 +54,14 @@
 
 ---
 
+<p style="font-size: 25px;"><strong>- Services</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/Services.gif" alt="Sercvices" width="800px" height="400px"/>
+</div>
+
+---
+
 <p style="font-size: 25px;"><strong>- After Authorization </strong></p>
 
 <ul> 
