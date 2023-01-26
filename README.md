@@ -51,6 +51,7 @@
      <img src="/README/password.png" alt="Password recovery" width="800px" height="400px"/>
   </p>
 </ul>
+
 ---
 
 <p style="font-size: 25px;"><strong>- After Authorization </strong></p>
