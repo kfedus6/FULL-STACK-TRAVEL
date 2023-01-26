@@ -671,6 +671,39 @@
     display: none;
 }
 
+.edit-account__exit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.edit-account__exit button {
+    padding: 14px 24px;
+    height: 48px;
+    background: #2F82FF;
+    border: none;
+    border-radius: 10px;
+    flex: none;
+    flex-grow: 1;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.edit-account__exit button:hover {
+    background: #599BFF;
+    transition: all ease 0.4s;
+}
+
 @media (max-width:1024px) {
     .block-fligth-cart-profile-account {
         display: flex;

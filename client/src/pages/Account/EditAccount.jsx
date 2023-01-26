@@ -2,7 +2,7 @@ import { Breadcrumbs, Button, ButtonBase, Input, InputAdornment, Typography } fr
 import { t } from 'i18next'
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import TextField from '@mui/material/TextField';
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
@@ -23,6 +23,8 @@ const EditAccount = () => {
     const [isChangePass, setIsChangePass] = useState("false");
     const { is_admin, is_login, user, reply, telephone, isPasswordNull } = useSelector(state => state.user);
     const { UpdateInfoForUser, GetPhone, IsPasswordNull } = useAction()
+    const navigate = useNavigate()
+
     const EditInfoUser = () => {
 
         UpdateInfoForUser(name, surname, phone);
@@ -69,6 +71,12 @@ const EditAccount = () => {
         EditEmail(email);
         setEmail("");
     }
+
+    const exitAccount = () => {
+        let local = localStorage.removeItem('token')
+        navigate('/')
+    }
+
     return (
         <div className='container-account-edit'>
             <div className='block-account-edit'>
@@ -114,6 +122,9 @@ const EditAccount = () => {
                                             </div>
                                             <div className="edit__account__description">
                                                 {telephone == "" ? t("account.no_specefied") : telephone}
+                                            </div>
+                                            <div className='edit-account__exit'>
+                                                <button onClick={exitAccount}>Вийти</button>
                                             </div>
                                         </>
                                         :
