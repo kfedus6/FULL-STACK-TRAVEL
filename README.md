@@ -26,11 +26,18 @@
 
 ---
 
-<p style="font-size: 25px;"><strong>- Sign Up/Log In</strong> Pages</p>
+<p style="font-size: 25px;"><strong>- Sign Up</strong> Pages</p>
 
 <div  style="display:flex;justify-content: space-around;align-items: center">
-  <img src="/README/login.png" alt="Login" width="300px"/>
-  <img src="/README/sign.png" alt="Sign up" width="300px"/>
+  <img src="/README/registration.png" alt="Registration" width="800px" height="400px"/>
+</div>
+
+<hr></hr>
+
+<p style="font-size: 25px;"><strong>- Log In</strong> Pages</p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/login.png" alt="Login" width="800px" height="400px"/>
 </div>
 
 ---
