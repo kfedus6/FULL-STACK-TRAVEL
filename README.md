@@ -26,19 +26,23 @@
 
 ---
 
-<p style="font-size: 25px;"><strong>- Sign Up</strong> Pages</p>
+<p style="font-size: 25px;"><strong>- Sign Up/Log Up and Password recovery</strong></p>
 
-<div  style="display:flex;justify-content: space-around;align-items: center">
-  <img src="/README/registration.png" alt="Registration" width="800px" height="400px"/>
-</div>
+<ul>
+  <li><h6><em>Sign Up</em></h6></li>
 
-<hr></hr>
+  <p align="center">
+     <img src="/README/registration.png" alt="Registration" width="800px" height="400px"/>
+  </p>
+</ul>
 
-<p style="font-size: 25px;"><strong>- Log In</strong> Pages</p>
+<ul>
+  <li><h6><em>Log Up</em></h6></li>
 
-<div  style="display:flex;justify-content: space-around;align-items: center">
-  <img src="/README/login.png" alt="Login" width="800px" height="400px"/>
-</div>
+  <p align="center">
+     <img src="/README/login.png" alt="Login" width="800px" height="400px"/>
+  </p>
+</ul>
 
 ---
 
