@@ -62,6 +62,23 @@
 
 ---
 
+
+<p style="font-size: 25px;"><strong>- Blog</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/Blog.gif" alt="Blog" width="800px" height="400px"/>
+</div>
+
+---
+
+<p style="font-size: 25px;"><strong>- Contact</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/Contact.png" alt="Contact" width="800px" height="400px"/>
+</div>
+
+---
+
 <p style="font-size: 25px;"><strong>- After Authorization </strong></p>
 
 <ul> 
