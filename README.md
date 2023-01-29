@@ -85,7 +85,7 @@
   <li><h6><em>Pagination: Back.</em></h6></li>
 
   <p align="center">
-     <img src="/README/backPagination.png" alt="Pagination Backend" width="800px" height="400px"/>
+    <img src="/README/backPagination.png" alt="Pagination Backend" width="800px" height="400px"/>
   </p>
 </ul>
 
@@ -93,9 +93,17 @@
   <li><h6><em>Pagination: Front.</em></h6></li>
 
   <p align="center">
-     <img src="/README/paginationFront.png" alt="Pagination Frontend" width="800px" height="100px"/>
-     <img src="/README/frontPagination.png" alt="Pagination Frontend" width="800px" height="200px"/>
-     <img src="/README/pagination.gif" alt="Pagination" width="800px" height="400px"/>
+    <img src="/README/paginationFrontCount.png" alt="Pagination Frontend" width="800px" height="100px"/>
+    <img src="/README/paginationFront.png" alt="Pagination Frontend" width="800px" height="100px"/>
+    <img src="/README/frontPagination.png" alt="Pagination Frontend" width="800px" height="200px"/>
+  </p>
+</ul>
+
+<ul>
+  <li><h6><em>- Pagination</em></h6></li>
+
+  <p align="center">
+    <img src="/README/pagination.gif" alt="Pagination" width="800px" height="400px"/>
   </p>
 </ul>
 
