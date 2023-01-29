@@ -79,16 +79,26 @@
 
 ---
 
+<p style="font-size: 25px;"><strong>- Breadcrumbs</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/Breadcrumbs.gif" alt="Breadcrumbs" width="800px" height="400px"/>
+</div>
+
+---
+
 <p style="font-size: 25px;"><strong>- After Authorization </strong></p>
 
 <ul> 
-  <li><h6><em>We can see that the user cannot write comments and add the product to the cart before authorization, but after authorization, the user icon changes to the cart, and the user can write comments and buy the product.</em></h6></li>
+  <li><h6><em>We can see that the user cannot write comments and add the product to the cart before authorization, but after authorization, the user icon changes to the cart, and the user can write comments and buy the product.
+  </em></h6></li>
   <p align="center">
     <img src="/README/after_OwpsnwR6.gif" alt="after" width="700px" height="400px"/>
   </p>
 </ul>
 
 ---
+
 
 <p style="font-size: 25px;"><strong>- i18Next </strong></p>
 
