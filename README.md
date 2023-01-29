@@ -79,6 +79,27 @@
 
 ---
 
+<p style="font-size: 25px;"><strong>- Pagination with Material UI</strong></p>
+
+<ul>
+  <li><h6><em>Pagination: Back.</em></h6></li>
+
+  <p align="center">
+     <img src="/README/backPagination.png" alt="Pagination Backend" width="800px" height="400px"/>
+  </p>
+</ul>
+
+<ul>
+  <li><h6><em>Pagination: Front.</em></h6></li>
+
+  <p align="center">
+     <img src="/README/frontPagonation.png" alt="Pagination Frontend" width="800px" height="400px"/>
+     <img src="/README/frontPagination.png" alt="Pagination Frontend" width="800px" height="400px"/>
+  </p>
+</ul>
+
+---
+
 <p style="font-size: 25px;"><strong>- Breadcrumbs</strong></p>
 
 <div  style="display:flex;justify-content: space-around;align-items: center">

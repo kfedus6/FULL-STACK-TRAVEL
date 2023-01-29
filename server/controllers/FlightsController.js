@@ -94,12 +94,7 @@ class FlightsController {
         try {
             let { inOneDirection, inTwoDirections, startPosition, finishPosition, startDate, finishDate, countFreePlace, limit, page } = req.query
             countFreePlace = parseInt(countFreePlace);
-            console.log('startPosition', startPosition)
-            console.log('finishPosition', finishPosition)
-            console.log('startDate', startDate)
-            console.log('finishDate', finishDate)
-            console.log('ONE', inOneDirection)
-            console.log('TWO', inTwoDirections)
+
             if (limit === undefined) {
                 limit = 5
             }
