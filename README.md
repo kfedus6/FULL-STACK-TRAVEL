@@ -93,8 +93,8 @@
   <li><h6><em>Pagination: Front.</em></h6></li>
 
   <p align="center">
-     <img src="/README/frontPagonation.png" alt="Pagination Frontend" width="800px" height="400px"/>
-     <img src="/README/frontPagination.png" alt="Pagination Frontend" width="800px" height="400px"/>
+     <img src="/README/frontPagonation.png" alt="Pagination Frontend" width="300px" height="400px"/>
+     <img src="/README/frontPagination.png" alt="Pagination Frontend" width="300px" height="400px"/>
   </p>
 </ul>
 
