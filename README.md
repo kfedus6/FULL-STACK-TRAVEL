@@ -136,11 +136,26 @@
 <ul>
   <li><h6><em>Here we assign 0 or 1 to the language.</em></h6></li>
   <p align="center">
-    <img src="/README/flightAction.png" alt="language" width="800px" height="150px"/>
+    <img src="/README/flightAction.png" alt="language" width="800px" height="120px"/>
     <img src="/README/flightReducer.png" alt="language" width="800px" height="300px"/>
   </p>
 </ul>
 
+<ul>
+ <li><h6><em>We are looking for the language we need by the index.</em></h6></li>
+  <p align="center">
+    <img src="/README/flightStore.png" alt="language" width="800px" height="50px"/>
+    <img src="/README/flightHtml.png" alt="language" width="800px" height="100px"/>
+  </p>
+</ul>
+
+<p style="font-size: 25px;"><strong>- Result</strong></p>
+
+<ul>
+  <p align="center">
+    <img src="/README/Language.gif" alt="language" width="800px" height="400px"/>
+  </p>
+</ul>
 
 ---
 
