@@ -54,6 +54,14 @@
 
 ---
 
+<p style="font-size: 25px;"><strong>- Flights and Flight</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/flight.gif" alt="Flights" width="800px" height="400px"/>
+</div>
+
+---
+
 <p style="font-size: 25px;"><strong>- Services</strong></p>
 
 <div  style="display:flex;justify-content: space-around;align-items: center">
@@ -113,6 +121,14 @@
 
 <div  style="display:flex;justify-content: space-around;align-items: center">
   <img src="/README/Breadcrumbs.gif" alt="Breadcrumbs" width="800px" height="400px"/>
+</div>
+
+---
+
+<p style="font-size: 25px;"><strong>- Sort Flights</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/sortflight.gif" alt="Sort Flights" width="800px" height="400px"/>
 </div>
 
 ---
