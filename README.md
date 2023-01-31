@@ -127,11 +127,20 @@
 </ul>
 
 <ul>
-  <li><h6><em>When we retrieve data from the database before sending it to frot, we use the split method to create an array, for example: [Київ, Киев]</em></h6></li>
+  <li><h6><em>When we retrieve data from the database before sending it to frot, we use the split method to create an array, for example: [Київ, Киев].</em></h6></li>
   <p align="center">
     <img src="/README/flightGetBack.png" alt="language" width="800px" height="400px"/>
   </p>
 </ul>
+
+<ul>
+  <li><h6><em>Here we assign 0 or 1 to the language.</em></h6></li>
+  <p align="center">
+    <img src="/README/flightAction.png" alt="language" width="800px" height="150px"/>
+    <img src="/README/flightReducer.png" alt="language" width="800px" height="300px"/>
+  </p>
+</ul>
+
 
 ---
 
