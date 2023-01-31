@@ -117,6 +117,24 @@
 
 ---
 
+<p style="font-size: 25px;"><strong>- The website is multilingual and can be translated into one of two languages. On the front I did it with the i18Next, it's easy there, I'd rather show you how I did it on the back.</strong></p>
+
+<ul>
+  <li><h6><em>Using the join method, we fix a term from 2 languages in the database, for example: Київ//Киев.<em><h6></li>
+  <p align="center">
+    <img src="/README/flightControllerBack.png" alt="language" width="800px" height="400px"/>
+  </p>
+</ul>
+
+<ul>
+  <li><h6><em>When we retrieve data from the database before sending it to frot, we use the split method to create an array, for example: [Київ, Киев]</em></h6></li>
+  <p align="center">
+    <img src="/README/flightGetBack.png" alt="language" width="800px" height="400px"/>
+  </p>
+</ul>
+
+---
+
 <p style="font-size: 25px;"><strong>- After Authorization </strong></p>
 
 <ul> 
@@ -124,19 +142,6 @@
   </em></h6></li>
   <p align="center">
     <img src="/README/after_OwpsnwR6.gif" alt="after" width="700px" height="400px"/>
-  </p>
-</ul>
-
----
-
-
-<p style="font-size: 25px;"><strong>- i18Next </strong></p>
-
-> **_Attention_** : <span>- Sorry for some screen recording problems.</span>
-<ul> 
-  <li><h6><em>The website is multilingual and it is possible to translate into one of two languages.</em></h6></li>
-  <p align="center">
-    <img src="/README/langg.gif" alt="lang" width="700px" height="400px"/>
   </p>
 </ul>
 

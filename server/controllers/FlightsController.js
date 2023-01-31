@@ -10,8 +10,10 @@ class FlightsController {
             const { price, childPrice, startPositionUA, startPositionRU, finishPositionUA, finishPositionRU,
                 streetStartPositionUA, streetStartPositionRU, streetFinishPositionUA, streetFinishPositionRU,
                 startDate, finishDate, startTime, finishTime, timeFlightUA, timeFlightRU, countFreePlace,
-                descriptionUA, descriptionRU, isWifi, isWC, is220V, isMultimedia,
-                isAirConditioning, map, countryStartUA, countryStartRU, countryFinishtUA, countryFinishtRU } = req.body;
+                descriptionUA, descriptionRU, isWifi, isWC, is220V, isMultimedia, isAirConditioning,
+                map, countryStartUA, countryStartRU, countryFinishtUA, countryFinishtRU
+            } = req.body;
+
             const timeFlight = [timeFlightUA, timeFlightRU].join("//");
             const startPosition = [startPositionUA, startPositionRU].join("//");
             const finishPosition = [finishPositionUA, finishPositionRU].join("//");
@@ -20,6 +22,7 @@ class FlightsController {
             const description = [descriptionUA, descriptionRU].join("/*/");
             const countryStart = [countryStartUA, countryStartRU].join("//");
             const countryFinish = [countryFinishtUA, countryFinishtRU].join("//");
+
             let { flagStartImg, flagFinishImg } = req.files;
             let flight;
 
@@ -239,6 +242,7 @@ class FlightsController {
         try {
             const { id } = req.params
             let flight = await Flight.findOne({ where: { id: parseInt(id) }, include: [{ as: 'params', model: ParamsFlight }, { as: 'schefule', model: ScheduleBus }] });
+
             flight.startPosition = flight.startPosition.split("//");
             flight.finishPosition = flight.finishPosition.split("//");
             flight.streetStartPosition = flight.streetStartPosition.split("//");
@@ -247,6 +251,7 @@ class FlightsController {
             flight.schefule[0].sunday = flight.schefule[0].sunday.split("//");
             flight.schefule[0].scheduleTo = flight.schefule[0].scheduleTo.split('//')
             flight.schefule[0].scheduleWith = flight.schefule[0].scheduleWith.split('//')
+
             let status = await ScheduleBusStatus.findAll({ where: { scheduleBusId: flight.schefule[0].id } });
 
             return res.json({ status: 200, res: { flight, status } });

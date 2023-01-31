@@ -32,7 +32,7 @@ const FlightsItem = ({ item, sumOld, sumYoung, deleteFlight, limit, page, openMo
     return (
         <div className='item-flight'>
             <div className='item-blocks'>
-                <div className='item-info-group' >
+                <div className='item-info-group'>
                     <div className='item-block-position'>
                         <div className='item-position'>
                             <div className='item-street-start-finish'>
