@@ -133,6 +133,21 @@
 
 ---
 
+<p style="font-size: 25px;"><strong>- Account</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/Account.gif" alt="Account" width="800px" height="400px"/>
+</div>
+
+---
+
+<p style="font-size: 25px;"><strong>- Buy</strong></p>
+
+<div  style="display:flex;justify-content: space-around;align-items: center">
+  <img src="/README/buy_Dqj9LKjU.gif" alt="Buy" width="800px" height="400px"/>
+</div>
+
+---
 <p style="font-size: 25px;"><strong>- The website is multilingual and can be translated into one of two languages. On the front I did it with the i18Next, it's easy there, I'd rather show you how I did it on the back.</strong></p>
 
 <ul>
@@ -172,27 +187,6 @@
     <img src="/README/Language.gif" alt="language" width="800px" height="400px"/>
   </p>
 </ul>
-
----
-
-<p style="font-size: 25px;"><strong>- After Authorization </strong></p>
-
-<ul> 
-  <li><h6><em>We can see that the user cannot write comments and add the product to the cart before authorization, but after authorization, the user icon changes to the cart, and the user can write comments and buy the product.
-  </em></h6></li>
-  <p align="center">
-    <img src="/README/after_OwpsnwR6.gif" alt="after" width="700px" height="400px"/>
-  </p>
-</ul>
-
----
-
-<p style="font-size: 25px;"><strong>- Category </strong>Page</p>
-
-<h6><em>Pagination and product sorting.</em></h6>
-<p align="center">
-    <img src="/README/paginationSort.gif" alt="pagination and sort" width="700px" height="400px"/>
-</p>
 
 ---
 
