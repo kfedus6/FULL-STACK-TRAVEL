@@ -130,6 +130,7 @@ class FlightOrdersController {
             const userId = req.user.id
             const userOrders = await FlightOrder.findAll({ where: { userId } })
             let flightOrders = []
+            console.log(userId)
             for (let i = 0; i < userOrders.length; i++) {
                 let flight = await Flight.findOne({ where: { id: userOrders[i].flightId } })
                 flight.startPosition = flight.startPosition.split("//");

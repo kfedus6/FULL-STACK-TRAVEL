@@ -18,6 +18,7 @@ const Header = () => {
     const [isBurgerShow, setIsBurgerShow] = useState(false);
 
     //<Logo />
+    // <p><NavLink className="dropdown-item-header" to="/novetlyEdit">{t('admin.novetly')}</NavLink></p>
 
     return (
         <>
@@ -44,7 +45,6 @@ const Header = () => {
                                                 <p><NavLink className="dropdown-item-header" to="/blogEdit">{t('admin.blog')}</NavLink></p>
                                                 <p><NavLink className="dropdown-item-header" to="/faqEdit">{t('admin.faq')}</NavLink></p>
                                                 <p><NavLink className="dropdown-item-header" to="/flightsEdit">{t('admin.flight')}</NavLink></p>
-                                                <p><NavLink className="dropdown-item-header" to="/novetlyEdit">{t('admin.novetly')}</NavLink></p>
                                                 <p><NavLink className="dropdown-item-header" to="/responseEdit">{t('admin.response')}</NavLink></p>
                                                 <p><NavLink className="dropdown-item-header" to="/order">{t('admin.order')}</NavLink></p>
                                             </div>

@@ -129,7 +129,6 @@ export const getUserHistory = () => async (dispatch) => {
 }
 
 export const fetchGetFlightAccountOrders = () => async (dispatch) => {
-    console.log('Yes')
     try {
         const response = await $authHost.get("api/flightOrder/getOrdersAccount")
         if (response.data.status == 200) {

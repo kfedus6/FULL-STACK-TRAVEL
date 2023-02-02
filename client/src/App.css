@@ -426,9 +426,11 @@ main {
 .admin__panel__main {
     width: 100%;
 }
+/*
 .about__us__edit__main {
     width: 100%;
 }
+*/
 .name__menu {
     width: 100%;
     background-color: #aaa;
@@ -3096,6 +3098,10 @@ footer {
         margin: 120px auto;
     }
     .admin-panel-blog {
+        width: 70%;
+        margin: 120px auto;
+    }
+    .about__us__edit__main {
         width: 70%;
         margin: 120px auto;
     }

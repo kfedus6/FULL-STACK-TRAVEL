@@ -194,34 +194,26 @@
 
 <ul>
 <h5><em>The administrator can:</em></h5>
-  <li><h6><em>Add a picture to the banner and delete it.</em></h6></li>
+  <li><h6><em>You can manage trip statuses and delete.</em></h6></li>
 
   <p align="center">
-    <img src="/README/HomeBaner.gif" alt="Baner" width="700px" height="400px"/>
+    <img src="/README/Orders.gif" alt="Orders" width="800px" height="400px"/>
   </p>
 </ul>
 
 <ul>
-  <li><h6><em>Add product type, brand and product, you can also add product color and more pictures, remove product.</em></h6></li>
+  <li><h6><em>You can add, delete and update a flight, you can change an active and inactive flight, and you can change the flight schedule in the calendar.</em></h6></li>
 
   <p align="center">
-    <img src="/README/AddProduct.gif" alt="Product" width="700px" height="400px"/>
+    <img src="/README/FlightAdmin.gif" alt="Flight" width="800px" height="400px"/>
   </p>
 </ul>
 
 <ul>
-  <li><h6><em>Find the order, view it and change the status of the order: accept or cancel.</em></h6></li>
+  <li><h6><em>You can add blog, reviews, about the company and FAQ, remove blog and reviews.</em></h6></li>
 
   <p align="center">
-    <img src="/README/Order.gif" alt="Order" width="700px" height="400px"/>
-  </p>
-</ul>
-
-<ul>
-  <li><h6><em>View product statistics and find out which product is selling best and which is not.</em></h6></li>
-
-  <p align="center">
-    <img src="/README/statistic-page.png" alt="Statistic" width="700px" height="400px"/>
+    <img src="/README/Other.gif" alt="Flight" width="800px" height="400px"/>
   </p>
 </ul>
 
